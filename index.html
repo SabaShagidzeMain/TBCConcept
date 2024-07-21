@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <a href="#" class="logo"
+          ><img src="images/TBC Logo.png" alt="" /><span> | კონცეპტი</span></a
+        >
+        <nav class="nav nav-mid">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="nav-link dropbtn" onclick="dropdown1()">
+                  პროდუქტები
+                </button>
+                <div class="dropdown-content" id="dropdown1">
+                  <a href="#">პროდუქტების მიმოხილვა</a>
+                  <a href="#">ნაკრები</a>
+                  <a href="#">პირადი ბანკირი</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="nav-link dropbtn" onclick="dropdown2()">
+                  შეთავაზებები
+                </button>
+                <div class="dropdown-content" id="dropdown2">
+                  <a href="#">მიმოხილვა</a>
+                  <a href="#">შეთავაზებები</a>
+                  <a href="#">ღონისძიებები</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="nav-link dropbtn" onclick="dropdown3()">
+                  კონცეპტის სივრცე
+                </button>
+                <div class="dropdown-content" id="dropdown3">
+                  <a href="#">მიმოხილვა</a>
+                  <a href="#">კაფე</a>
+                  <a href="#">ბიბლიოთეკა</a>
+                  <a href="#">კონცეპტ ფილიალები</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="nav-contact">
+            <p>დაგვიკავშირდით:</p>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-phone"></i> +995 32 2 27 27 00</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-regular fa-envelope"></i> info@tbcconcept.ge</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-location-dot"></i> ფილიალები</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-socials">
+            <p>სოციალური ქსელები</p>
+            <div class="nav-socials-btns">
+              <button><i class="fa-brands fa-square-facebook"></i></button>
+              <button><i class="fa-brands fa-instagram"></i></button>
+            </div>
+          </div>
+          <div class="nav-footer">
+            <ul>
+              <li><a href="#">კონფიდენციალურობა</a></li>
+              <li><a href="#">წესები და პირობები</a></li>
+            </ul>
+            <div class="nav-footer-bot">
+              <img src="images/TBC Logo.png" alt="" />
+              <p>2024 ყველა უფლება დაცულია</p>
+            </div>
+          </div>
+        </nav>
+        <div class="nav-right-wrapper">
+          <nav class="nav nav-right">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><i class="fa-solid fa-arrow-right"></i> გამოიწერეთ ნაკრები</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fa-solid fa-globe"></i> ქარ</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="header-dropdown" id="dropDownDiv">
+        <div class="dropdown-img">
+          <img src="images/cards.png" alt="" />
+        </div>
+      </div> -->
+    </header>
+    <!-- JavaScript Link -->
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
