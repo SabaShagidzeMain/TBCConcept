@@ -7,11 +7,6 @@ hamburgerEl.addEventListener("click", () => {
   hamburgerEl.classList.toggle("hamburger-open");
 });
 
-// navEl.addEventListener("click", () => {
-//   navEl.classList.remove("nav-open");
-//   hamburgerEl.classList.remove("hamburger-open");
-// });
-
 // Navigation - Dropdown
 const dropOne = document.getElementById("dropdown1");
 const dropTwo = document.getElementById("dropdown2");

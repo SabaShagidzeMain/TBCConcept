@@ -592,6 +592,11 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transform: translateY(-200%);
+  }
+
+  .nav-open {
+    transform: translateY(0);
   }
 
   .nav-list {
@@ -846,6 +851,11 @@ a {
 @media (max-width: 475px) {
   .header-content {
     padding: 0 1rem;
+  }
+  .nav-mid {
+    padding-top: 2rem;
+    gap: 2rem;
+    justify-content: flex-start;
   }
   .nav-right .nav-link {
     font-size: 0.7rem;
