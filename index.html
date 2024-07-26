@@ -26,8 +26,8 @@
             <li class="nav-item">
               <div class="dropdown">
                 <button class="nav-link dropbtn" onclick="dropdown1()">
-                  პროდუქტები
-                </button>
+                  პროდუქტები <span><i class="fa-solid fa-angle-down"></i></span>
+                </button> 
                 <div class="dropdown-content" id="dropdown1">
                   <a href="#">პროდუქტების მიმოხილვა</a>
                   <a href="#">ნაკრები</a>
@@ -38,7 +38,7 @@
             <li class="nav-item">
               <div class="dropdown">
                 <button class="nav-link dropbtn" onclick="dropdown2()">
-                  შეთავაზებები
+                  შეთავაზებები <span><i class="fa-solid fa-angle-down"></i></span>
                 </button>
                 <div class="dropdown-content" id="dropdown2">
                   <a href="#">მიმოხილვა</a>
@@ -50,7 +50,7 @@
             <li class="nav-item">
               <div class="dropdown">
                 <button class="nav-link dropbtn" onclick="dropdown3()">
-                  კონცეპტის სივრცე
+                  კონცეპტის სივრცე <span><i class="fa-solid fa-angle-down"></i></span>
                 </button>
                 <div class="dropdown-content" id="dropdown3">
                   <a href="#">მიმოხილვა</a>
@@ -250,7 +250,7 @@
             <button><i class="fa-solid fa-globe"></i> ქარ</a></button>
           </div>
         </div>
-        <div class="footer-lists">
+        <div class="footer-lists" id="footer-lists-bg">
           <div class="footer-list" id="footerDropdownOne">
             <a href="#">პროდუქტები</a>
             <ul class="dropdown-list" id="footDropdownListOne">
@@ -297,6 +297,49 @@
               <button><i class="fa-brands fa-instagram"></i></button>
             </div>
           </div>
+        </div>
+      </div>
+      </div>
+        <div class="footer-lists" id="footer-lists-sm">
+          <ul class="nav-list">
+            <li class="nav-item nav-dropdown">
+              <div class="dropdown">
+                <button class="nav-link dropbtn footer-drop-btn" onclick="ftdropdown1()">
+                  პროდუქტები <span><i class="fa-solid fa-angle-down"></i></span>
+                </button>
+                <div class="dropdown-content ft-drp-content" id="footerdropdown1">
+                  <a href="#">პროდუქტების მიმოხილვა</a>
+                  <a href="#">ნაკრები</a>
+                  <a href="#">პირადი ბანკირი</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item nav-dropdown">
+              <div class="dropdown">
+                <button class="nav-link dropbtn footer-drop-btn" onclick="ftdropdown2()">
+                  Lifestyle <span><i class="fa-solid fa-angle-down"></i></span>
+                </button>
+                <div class="dropdown-content ft-drp-content" id="footerdropdown2">
+                  <a href="#">მიმოხილვა</a>
+                  <a href="#">შეთავაზებები</a>
+                  <a href="#">ღონისძიებები</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item nav-dropdown">
+              <div class="dropdown">
+                <button class="nav-link dropbtn footer-drop-btn" onclick="ftdropdown3()">
+                  კონცეპტის სივრცე <span><i class="fa-solid fa-angle-down"></i></span>
+                </button>
+                <div class="dropdown-content ft-drp-content" id="footerdropdown3">
+                  <a href="#">მიმოხილვა</a>
+                  <a href="#">კაფე</a>
+                  <a href="#">ბიბლიოთეკა</a>
+                  <a href="#">კონცეპტ ფილიალები</a>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="footer-rights">

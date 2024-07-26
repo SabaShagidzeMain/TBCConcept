@@ -59,3 +59,27 @@ window.onclick = function (event) {
     }
   }
 };
+
+// Navigation - Dropdown
+const ftdropOne = document.getElementById("footerdropdown1");
+const ftdropTwo = document.getElementById("footerdropdown2");
+const ftdropThree = document.getElementById("footerdropdown3");
+const ftIconOne = document.getElementById("ft-icon-1");
+const ftIconTwo = document.getElementById("ft-icon-2");
+const ftIconThree = document.getElementById("ft-icon-3");
+
+function ftdropdown1() {
+  ftdropOne.classList.toggle("show");
+  ftdropTwo.classList.remove("show");
+  ftdropThree.classList.remove("show");
+}
+function ftdropdown2() {
+  ftdropTwo.classList.toggle("show");
+  ftdropOne.classList.remove("show");
+  ftdropThree.classList.remove("show");
+}
+function ftdropdown3() {
+  ftdropThree.classList.toggle("show");
+  ftdropOne.classList.remove("show");
+  ftdropTwo.classList.remove("show");
+}
