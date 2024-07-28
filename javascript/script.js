@@ -83,3 +83,31 @@ function ftdropdown3() {
   ftdropOne.classList.remove("show");
   ftdropTwo.classList.remove("show");
 }
+
+// Swiper
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 4,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "progressbar",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
+});
